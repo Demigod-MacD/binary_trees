@@ -21,7 +21,7 @@ size_t tree_height(const heap_t *tree)
 		height_r = 1 + tree_height(tree->right);
 
 	if (height_l > height_r)
-		return (height_l)
+		return (height_l);
 	return (height_r);
 }
 /**
